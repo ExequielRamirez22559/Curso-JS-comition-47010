@@ -18,6 +18,9 @@ function dineroRestante(x) {
   return dineroCliente - x;
 }
 
+
+
+//PROBANDO COMMMIT
 //condicionales
 switch (menu) {
     case "a":
