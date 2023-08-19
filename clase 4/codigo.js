@@ -32,7 +32,18 @@ const productos = [
     {id: 7, nombre: "bombones helados", precio: 350},
     ]
 
+const total = productos.reduce((acumulador, item)=> acumulador + item.precio, 0);
+console.log(total);
 
+  productos.forEach((item)=>{
+    console.log(item.nombre);
+    console.log(item.precio);
+    console.log(item.id);
+  })
+
+
+
+    
 //variables
 let dineroCliente = 100;
 let precioCuarto = 20;
